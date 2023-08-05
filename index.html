@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header id="nav-bar">
+      <h1 id="nav-title">Simple Notes</h1>
+      <a id="nav-home" href="#">Home</a>
+    </header>
+    <main>
+      <div id="new-note-container">
+        <form id="new-note-form">
+          <label id="title-label" for="title-input">Create new note:</label>
+          <input type="text" id="title-input" placeholder="Title" />
+          <textarea id="text-area" name="text-area"></textarea>
+          <div class="actions">
+            <button id="add-note" class="button" type="submit">Add note</button>
+          </div>
+        </form>
+      </div>
+      <h2 id="notes-list-title">Notes List</h2>
+      <div id="notes-container"></div>
+    </main>
+  </body>
+</html>
